@@ -1,1 +1,80 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=screen-width, initial-scale=1.0">
+        <title>robbie devries</title>
+        <link rel="stylesheet" media="screen and (min-width: 901px)" href="../css/large.css">
+        <link rel="stylesheet" media="screen and (min-width: 651px) and (max-width: 900px)" href="../css/medium.css">
+        <link rel="stylesheet" media="screen and (max-width: 650px)" href="../css/small.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Scope+One|Montserrat+Subrayada:700">
+    </head>
+        <body>
+            <div class=container>
+                <div class="main-header">
+                    <h1>robbie devries</h1>
+                </div>
+                <div class="logo">
+                        <img class="logo-icon" src="../img/logo.svg" alt="robbie devries logo">
+                </div>
+                <nav class="nav">
+                    <ul class="nav-touchpoints">
+                        <li class="hvr-sink"><a href="#work-anchor">Work</a></li>
+                        <li class="hvr-sink"><a href="#about-anchor">About</a></li>
+                        <li class="hvr-sink"><a href="#contact-anchor">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="pixelart">
+                    <a href="https://codepen.io/robbiedv/pen/yKNKEY"><img id="work-anchor" class="pixelart-icon hvr-sink" src="../img/pixelArtIcon.svg" alt="pixel art icon"></a>
+                </div>
+                <div class="pixelart-description">
+                    <p>head on over to codepen and check out this guy and make something cool with it. if you're above that, let a kid goof around with it for a minute and see what they come up with. this was the final
+                    project for the 'scholorship challenge course' sponsored by google. we were given starter html and css (which i tweaked of course), but all javascript was written by myself.</p>
+                </div>
+                <div class="trading-card">
+                    <a href="https://codepen.io/robbiedv/pen/GyPjEw"><img class="card hvr-sink" src="../img/tradingCardIcon.svg" alt="trading card image"></a>
+                </div>
+                <div class="trading-card-description">
+                    <p>pure html and css 'animal trading cards' created in the beginning stages of the course. lots of boxes inside boxes here. while 
+                    building these i kept finding myself distracted from the coding to do more research on the featured animal. take a look at the design and code behind these at codepen.</p>
+                </div>
+                <div class="about-header">
+                  <h2 id="about-anchor">About</h2>
+                </div>
+                <div class="about-paragraph1">
+                   <p>hi, my name's robbie, some people call me rob. i'm a young developer and designer looking to
+                   debut into the world of tech, at least officially. i've been dabbling with html and css from the day i realized i could use it to customize my high school blog. since then i've built a couple of sites for friends and family. i always thought of my web-development knack as a hobby, never a career, until i saw an ad for the 'grow with google' scholorship program. since i had nothing to loose, i applied. i havn't looked back since then, earning a spot in</p>
+                </div>
+                <div class="about-paragraph2">
+                    <p>the 'challenge course' and then being awarded a scholorship by google to udacity's web-development programn. i'm currently using this collective knowledge to build beautiful, functional and intuitive web pages and apps. about me personally, i'm married to the love of my life, emma, and we just recently had our first kid, thomas. springfield, il is home, where we all live in a cozy apartment with hardwood floors that squeak to raise the dead.</p>
+                </div>
+                <div class="contact-header">
+                    <h2 id="contact-anchor">Contact</h2>
+                </div>
+                <div class="contact-form">
+                    <form id="form-markup" method="post" action="contactengine.php">
+                        if you're interested in partnering with me (or me partnering with you) on a project, let me know your name, <input class="form-name" type="text" name="Name" placeholder="e.g. beyonce"><br>an email address i can reach you at,<input class="form-contact-info" type="text" name="Email" placeholder="or your walkie-talkie channel">and then jot down a bit about your project,<textarea name="Message" placeholder="need some help writing that bit of code that lets you manipulate the matrix? you've come to the right place" name="description"></textarea>
+                        <input class="form-submit-button hvr-sink" type="button" value="submit" onclick="formReset()">
+                    </form>
+                    <div style="clear: both;"></div>
+                </div>
+                <div class="social-media">
+                   <div class="instagram-button">
+                        <a href="https://www.instagram.com/_r.dv_/"><img class="instagram hvr-sink" src="../img/instagram.svg" alt="instagram logo"></a></instagram>
+                    </div>
+                    <div class="git-button">
+                        <a href="https://github.com/robbiedv"><img class="git hvr-sink" src="../img/git.svg" alt="instagram logo"></a>
+                    </div>
+                    <div class="linkedin-button">
+                        <a href="https://www.linkedin.com/in/robbiecdevries/"><img class="linkedin hvr-sink" src="../img/linkedin.svg" alt="instagram logo"></a>
+                    </div>
+                </div>
+            </div>
+	 
+<script>
+function formReset() {
+    document.getElementById("form-markup").reset();
+} 
+</script>
+      </body>
+</html>
