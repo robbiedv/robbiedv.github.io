@@ -19,6 +19,8 @@ body {
 
 .logo {
     grid-column: margin-start;
+		width: 100%;
+		margin: 0;
 }
 
 .logo-icon {
@@ -70,6 +72,8 @@ a {
 
 .pixelart {
     grid-column: margin;
+		width: 70%;
+		margin: 0;
     padding: 50% 15% 0 15%;
 }
 
@@ -85,6 +89,8 @@ a {
 
 .trading-card {
     grid-column: margin-start / center-line;
+		width: 100%;
+		margin: 0;
     padding-top: 30%;
 }
 
@@ -199,14 +205,20 @@ input:focus {
 
 .instagram-button {
     grid-column: 3;
+		width: 100%;
+		margin: 0;
 }
 
 .git-button {
     grid-column: 4;
+		width: 100%;
+		margin: 0;
 }
 
 .linkedin-button {
     grid-column: 5;
+		width: 100%;
+		margin: 0;
 }
 
 .instagram, .git, .linkedin {
