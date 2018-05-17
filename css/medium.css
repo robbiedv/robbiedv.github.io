@@ -97,7 +97,7 @@ a {
 .trading-card-description {
     grid-column: center-line /margin-end;
     font-size: 2.5vw;
-    padding: 19vh 5% 0 10%;
+    padding: 12vh 5% 0 10%;
 }
 
 .card {
