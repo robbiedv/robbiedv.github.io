@@ -80,7 +80,7 @@ a {
 .pixelart-description {
     grid-column: full;
     font-size: 2.5vw;
-    padding: 0 15%;
+    padding: 0 15% 15vh;
 }
 
 .pixelart-icon {
@@ -91,13 +91,13 @@ a {
     grid-column: margin-start / center-line;
 		width: 100%;
 		margin: 0;
-    padding-top: 15vh;
+    padding-top: 2vh;
 }
 
 .trading-card-description {
     grid-column: center-line /margin-end;
     font-size: 2.5vw;
-    padding: 12vh 5% 0 10%;
+    padding: 0 5% 0 10%;
 }
 
 .card {

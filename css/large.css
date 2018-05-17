@@ -97,12 +97,12 @@ a {
 .trading-card-description {
     grid-column: center-line /margin-end;
     font-size: 2vw;
-    padding: 12vh 20% 0 10%;
+    padding: 0 20% 0 10%;
 }
 
 .card {
     width: 60%;
-    padding: 6% 0 0 30%;
+    padding: 2vh 0 0 30%;
 }
 
 .about-header {
