@@ -74,7 +74,7 @@ a {
     grid-column: margin;
 		width: 70%;
 		margin: 0;
-    padding: 50% 15% 0 15%;
+    padding: 40vh 15% 0 15%;
 }
 
 .pixelart-description {
@@ -91,25 +91,25 @@ a {
     grid-column: margin-start / center-line;
 		width: 100%;
 		margin: 0;
-    padding-top: 30%;
+    padding-top: 15vh;
 }
 
 .trading-card-description {
     grid-column: center-line /margin-end;
     font-size: 2.5vw;
-    padding: 45% 5% 0 10%;
+    padding: 19vh 5% 0 10%;
 }
 
 .card {
     width: 80%;
-    padding: 10% 0 0 10%;
+    padding-left: 10%;
 }
 
 .about-header {
     grid-column: main;
     font-size: 5vw;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 20vh;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -121,7 +121,7 @@ a {
 
 .about-paragraph2 {
     grid-column: center-line / full-end;
-    padding: 20% 25% 0 5%;
+    padding: 12vh 25% 0 5%;
     font-size: 2.5vw;
 }
 
@@ -135,7 +135,7 @@ a {
 .contact-form {
     grid-column: full;
     font-size: 3.5vw;
-    padding: 0 10% 5% 10%;
+    padding: 0 10% 2vh;
 }
 
 .form-name {

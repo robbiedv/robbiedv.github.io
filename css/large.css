@@ -75,30 +75,29 @@ a {
     grid-column: main;
 		width: 100%;
 		margin: 0;
-    padding-top: 50%;
 }
 
 .pixelart-description {
     grid-column: margin;
     font-size: 2vw;
-    padding: 2% 5%;
+    padding: 2% 5% 20vh 5%;
 }
 
 .pixelart-icon {
     width: 100%;
+		padding-top: 35vh;
 }
 
 .trading-card {
     grid-column: margin-start / center-line;
 		width: 100%;
 		margin: 0;
-    padding-top: 30%;
 }
 
 .trading-card-description {
     grid-column: center-line /margin-end;
     font-size: 2vw;
-    padding: 45% 20% 0 10%;
+    padding: 15vh 20% 0 10%;
 }
 
 .card {
@@ -110,7 +109,7 @@ a {
     grid-column: main;
     font-size: 4vw;
     text-align: center;
-    padding-top: 30%;
+    padding-top: 20vh;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -122,14 +121,14 @@ a {
 
 .about-paragraph2 {
     grid-column: center-line / margin-end;
-    padding: 20% 10% 0 5%;
+    padding: 13vh 10% 0 5%;
     font-size: 1.8vw;
 }
 
 .contact-header {
     grid-column: margin-start / span 2;
     font-size: 4vw;
-    padding-top: 25%;
+    padding-top: 20vh;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
