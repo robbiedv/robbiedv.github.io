@@ -156,8 +156,9 @@ a {
 
 .contact-form {
     grid-column: full;
-    font-size: 5vw;
-    padding-bottom: 5vh;
+    font-size: 3vw;
+    padding-bottom: 3%;
+    text-align: center;
 }
 
 .form-name {
