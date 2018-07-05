@@ -151,7 +151,7 @@ a {
 }
 
 .contact-form {
-    grid-column: full;
+    grid-column: margin;
     font-size: 3vw;
     padding-bottom: 3%;
     text-align: center;
