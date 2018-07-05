@@ -107,6 +107,24 @@ a {
     padding: 0 5%;
 }
 
+.memory-game {
+    grid-column: full;
+	  width: 80%;
+		margin: 0;
+    padding: 30vh 10% 0 10%;
+}
+
+.memory-game-description {
+    grid-column: full;
+    font-size: 5vw;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.memory-game-icon {
+	width: 100%;
+}
+
 .about-header {
     grid-column: margin;
     font-size: 10vw;
@@ -230,11 +248,3 @@ input:focus {
     width: 50%;
     padding-left: 40%;
 }
-
-
-
-
-
-
-
-
