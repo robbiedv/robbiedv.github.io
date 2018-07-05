@@ -105,6 +105,24 @@ a {
     padding: 2vh 0 0 30%;
 }
 
+.memory-game {
+	  grid-column: margin;
+	  width: 60%;
+		margin: 0;
+    padding: 30vh 20% 0 20%;
+}
+
+.memory-game-description {
+	  grid-column: margin;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.memory-game-icon {
+	width: 100%;
+}
+
 .about-header {
     grid-column: main;
     font-size: 4vw;
@@ -228,11 +246,3 @@ input:focus {
 .instagram, .git, .linkedin {
 	width: 50%;
 }
-
-
-
-
-
-
-
-
