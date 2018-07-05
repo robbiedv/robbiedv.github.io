@@ -151,9 +151,10 @@ a {
 }
 
 .contact-form {
-    grid-column: margin;
+    grid-column: full;
     font-size: 3vw;
     padding-bottom: 3%;
+    margin: 0 10% 0 10%;
     text-align: center;
 }
 
