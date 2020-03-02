@@ -1,0 +1,22 @@
+
+body {
+  display: flex;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(56, 68, 70);
+  font-size: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: [edge-left] 1fr [line1] 1fr [line2] 1fr [edge-right];
+  grid-template-rows: [top-edge] 1fr [line1] 1fr [line2] 1fr [bottom-edge];
+}
+
+.menu {
+  font-family: 'Audiowide';
+  font-size: 1em;
+  grid-column: line1 / line2;
+  grid-row: line1 / line2;
+}
