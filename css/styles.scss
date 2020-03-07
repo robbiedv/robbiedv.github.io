@@ -20,7 +20,22 @@ body {
   text-shadow: 2px 4px 8px rgb(50, 24, 24);
   grid-column: line1 / line2;
   grid-row: top-edge / bottom-edge;
-  z-index: 1
+  z-index: 2
+}
+
+.data-menu:hover {
+  text-shadow: 6px 6px 5px rgb(50, 24, 24);
+  transform: scale(1.3, 1.3);
+  transform-origin: left;
+  transition: all .5s ease;
+}
+
+.menu-text {
+  position: relative;
+  bottom: -10000px;
+  grid-column: line1 / line2;
+  grid-row: line2 / bottom-edge;
+  z-index: 1;
 }
 
 .waves {
@@ -64,7 +79,7 @@ body {
 }
 
 @keyframes wave2 {
-	100% {transform: rotate(360deg)}
+	100% {transform: rotate(-360deg)}
 }
 
 .wave3-container {
