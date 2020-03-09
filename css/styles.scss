@@ -5,6 +5,11 @@ body {
   overflow: hidden;
   background-color: rgb(61, 53, 63);
   font-size: 100%;
+  font-family: 'Audiowide';
+}
+
+button {
+
 }
 
 .grid-container {
@@ -35,6 +40,10 @@ body {
   transform: scale(1.7, 1.7);
   transform-origin: left;
   transition: all .3s ease;
+}
+
+.data-activate {
+  color: purple;
 }
 
 .designer-menu:hover {
