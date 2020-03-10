@@ -1,7 +1,11 @@
 //when the data button is clicked
-function activate() {
-  document.getElementsByClassName('data-menu').classList.add("data-activate");
-}
+window.onload = function() {
+const dataButton = document.getElementById('data-button')
+
+// dataButton.addEventListener('click', function() {
+//   dataButton.classList.add('data-activate')
+
+  // dataButton.classList.add('data-activate')
   //designer fly off screen left
   //developer fly off screen right
   //move data up increase space between letters
@@ -21,3 +25,4 @@ function activate() {
       //move developer up increase space between letters
       //grow a text box
       //developer description fly up and fade in
+}
