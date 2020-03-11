@@ -1,111 +1,26 @@
 body {
   margin: 0;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
   background-color: rgb(61, 53, 63);
-  font-size: 10px;
+  font-size: 62.5%;
   font-family: 'Audiowide';
 }
 
-
 .grid-container {
   display: grid;
-  grid-template-columns: [edge-left] 1fr [line1] 1fr [line2] 1fr [edge-right];
+  grid-template-columns: [left-edge] 1fr [line1] 1fr [line2] 1fr [right-edge];
   grid-template-rows: [top-edge] 1fr [line1] 1fr [line2] 1fr [bottom-edge];
 }
-
-/************************
-*** START MEDIA QUERY ***
-************************/
-
-@media only screen and (min-width: 701px) {
-  .menu {
-    font-size: 200%;
-  }
-
-  h1:hover {
-    transition: .8s ease;
-    transform: scale(1.6);
-    transform-origin: left;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-
-    .menu {
-      font-size: 150%;
-    }
-
-    h1:hover {
-      transition: .8s ease;
-      transform: scale(1.3);
-      transform-origin: left;
-    }
-
-    .menu-text {
-      position: relative;
-      bottom: -10000px;
-      grid-column: line1 / line2;
-      grid-row: line2 / bottom-edge;
-      z-index: 1;
-    }
-
-    .wave1-container {
-      height: 30vh;
-    }
-
-    .wave1 {
-      left: 50%;
-      margin-top: 3%;
-      margin-left: -200vw;
-      width: 500vw;
-      height: 525vw;
-      border: 5vh solid rgb(238, 83, 34);
-      box-shadow: 0 5px 40px rgb(238, 83, 34);
-      border-radius: 50%;
-      animation: wave1 16s infinite linear;
-    }
-
-    .wave2-container {
-      height: 30vh;
-    }
-
-    .wave2 {
-      left: 50%;
-      margin-left: -200vw;
-      width: 500vw;
-      height: 520vw;
-      box-shadow: 0 5px 40px rgb(238, 83, 34);
-      border: 5vh solid rgb(238, 83, 34);
-      border-radius: 50%;
-      animation: wave2 14s infinite linear;
-    }
-
-    .wave3-container {
-      height: 30vh;
-    }
-
-    .wave3 {
-      left: 50%;
-      margin-left: -200vw;
-      width: 500vw;
-      height: 540vw;
-      border: 5vh solid rgb(238, 83, 34);
-      box-shadow: 0 5px 40px rgb(238, 83, 34);
-      border-radius: 50%;
-      animation: wave3 15s infinite linear;
-    }
-}
-
-/**********************
-*** END MEDIA QUERY ***
-**********************/
 
 .menu {
   place-self: center;
   grid-column: line1 / line2;
-  grid-row: top-edge / bottom-edge;
+  grid-row: line1 / line2;
   font-family: 'Audiowide';
+  font-size: 2.5em;
+  letter-spacing: .1em;
   cursor: pointer;
   user-select: none;
   transition: all .3s ease;
@@ -113,19 +28,39 @@ body {
   z-index: 2;
 }
 
-// h1:hover {
-//   transition: .8s ease;
-//   transform: scale(1.6);
-//   transform-origin: left;
-// }
+h1:hover {
+  transform: scale(1.4);
+  transform-origin: left;
+  transition: .6s ease;
+}
 
+#dev {
+
+}
+
+#data {
+
+}
+
+#dad {
+
+}
+
+.activate {
+  color: teal;
+}
+
+/*
 .menu-text {
   position: relative;
   bottom: -10000px;
-  grid-column: line1 / line2;
+  grid-column: left-edge / right-edge;
   grid-row: line2 / bottom-edge;
+  font-size: 2em;
+  font-family: Montserrat;
   z-index: 1;
 }
+*/
 
 @keyframes menu-glow {
   0% {
@@ -142,7 +77,7 @@ body {
 }
 
 .waves {
-  grid-column: edge-left / edge-right;
+  grid-column: left-edge / right-edge;
   grid-row: top-edge / bottom-edge;
   z-index: 0;
 }

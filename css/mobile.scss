@@ -1,125 +1,72 @@
-body {
-  margin: 0;
-  height: 100vh;
-  overflow: hidden;
-  background-color: rgb(61, 53, 63);
-  font-size: 100%;
-  font-family: 'Audiowide';
+
+.menu {
+  font-size: 1.4em;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: [edge-left] 1fr [line1] 1fr [line2] 1fr [edge-right];
-  grid-template-rows: [top-edge] 1fr [line1] 1fr [line2] 1fr [bottom-edge];
+h1:hover {
+  transform: scale(1);
+
 }
 
-  .menu {
-    place-self: center;
-    grid-column: line1 / line2;
-    grid-row: top-edge / bottom-edge;
-    font-family: 'Audiowide';
-    font-size: 1em;
-    cursor: pointer;
-    user-select: none;
-    transition: all .3s ease;
-    animation: menu-glow 3s infinite;
-    z-index: 2;
+.wave1-container {
+  height: 30vh;
+}
+
+.wave1 {
+  left: 50%;
+  margin-left: -200vw;
+  width: 500vw;
+  height: 525vw;
+  border: 5vh solid rgb(238, 83, 34);
+  box-shadow: 0 5px 40px rgb(238, 83, 34);
+  border-radius: 50%;
+  animation: wave1 21s infinite linear;
+}
+
+@keyframes wave1 {
+  100% {
+    transform: rotate(360deg);
   }
+}
 
-  h1:hover {
-    transition: .8s ease;
-    transform: scale(1.3);
-    transform-origin: left;
+.wave2-container {
+  height: 40vh;
+}
+
+.wave2 {
+  left: 50%;
+  margin-left: -200vw;
+  width: 500vw;
+  height: 520vw;
+  box-shadow: 0 5px 40px rgb(238, 83, 34);
+  border: 5vh solid rgb(238, 83, 34);
+  border-radius: 50%;
+  animation: wave2 18s infinite linear;
+}
+
+@keyframes wave2 {
+  100% {
+    transform: rotate(-360deg);
   }
+}
 
-  .menu-text {
-    position: relative;
-    bottom: -10000px;
-    grid-column: line1 / line2;
-    grid-row: line2 / bottom-edge;
-    z-index: 1;
+.wave3-container {
+  height: 30vh;
+}
+
+.wave3 {
+  left: 50%;
+  margin-left: -200vw;
+  width: 500vw;
+  height: 540vw;
+  border: 5vh solid rgb(238, 83, 34);
+  box-shadow: 0 5px 40px rgb(238, 83, 34);
+  border-radius: 50%;
+  animation: wave3 20s infinite linear;
+}
+
+@keyframes wave3 {
+  100% {
+    transform: rotate(360deg);
   }
-
-  @keyframes menu-glow {
-    0% {
-      text-shadow: 2px 4px 8px rgb(93, 61, 61);
-    }
-
-    50% {
-      text-shadow: 1px 2px 4px rgb(153, 153, 170);
-    }
-
-    100% {
-      text-shadow: 2px 4px 8px rgb(93, 61, 61);
-    }
-  }
-
-  .waves {
-    grid-column: edge-left / edge-right;
-    grid-row: top-edge / bottom-edge;
-    z-index: 0;
-  }
-
-  .wave1-container {
-    height: 30vh;
-  }
-
-  .wave1 {
-    left: 50%;
-    margin-top: 5%;
-    margin-left: -200vw;
-    width: 500vw;
-    height: 525vw;
-    border: 5vh solid rgb(238, 83, 34);
-    box-shadow: 0 5px 40px rgb(238, 83, 34);
-    border-radius: 50%;
-    animation: wave1 16s infinite linear;
-  }
-
-  @keyframes wave1 {
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  .wave2-container {
-    height: 40vh;
-  }
-
-  .wave2 {
-    left: 50%;
-    margin-left: -200vw;
-    width: 500vw;
-    height: 520vw;
-    box-shadow: 0 5px 40px rgb(238, 83, 34);
-    border: 5vh solid rgb(238, 83, 34);
-    border-radius: 50%;
-    animation: wave2 14s infinite linear;
-  }
-
-  @keyframes wave2 {
-    100% {
-      transform: rotate(-360deg);
-    }
-  }
-
-  .wave3-container {
-    height: 30vh;
-  }
-
-  .wave3 {
-    left: 50%;
-    margin-left: -200vw;
-    width: 500vw;
-    height: 540vw;
-    border: 5vh solid rgb(238, 83, 34);
-    box-shadow: 0 5px 40px rgb(238, 83, 34);
-    border-radius: 50%;
-    animation: wave3 15s infinite linear;
-  }
-
-  @keyframes wave3 {
-    100% {
-      transform: rotate(360deg);
-    }
-  }
+}
