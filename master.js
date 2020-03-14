@@ -7,6 +7,7 @@ const devButton = document.getElementById('dev');
 const dataButton = document.getElementById('data');
 const dadButton = document.getElementById('dad');
 
+
 // loop through list, select each one by innerHTML
 for (let i=0; i < buttons.length; i++) {
   buttons[i].onclick = function() {
@@ -23,33 +24,34 @@ for (let i=0; i < buttons.length; i++) {
 
 
 function dev(x) {
-    //data fly off screen left
-    console.log(x)
-    //designer fly off screen right
-    //move developer up increase space between letters
-    //grow a text box
-    //developer description fly up and fade in
+  //fade out dev
+  devButton.classList.toggle('fade-out');
+  dataButton.classList.toggle('slide-left');
+  //designer fly off screen right
+  dadButton.classList.toggle('slide-right');
+  //developer description fly up and fade in
 }
 
 function data(x) {
-  console.log(x)
-  //when the data button is clicked
-    //dad fly off screen left
-    //developer fly off screen right
-    //move data up increase space between letters
-    //grow a text box
-    //designer description fly up and fade in
+  //fade out data
+  dataButton.classList.toggle('fade-out');
+  //dad fly off screen left
+  dadButton.classList.toggle('slide-left')
+  //developer fly off screen right
+  devButton.classList.toggle('slide-right')
+  //designer description fly up and fade in
 }
 
 function dad(x) {
-  console.log(x)
-  //when the dad button is clicked
-    //data fly off screen left
-    //developer fly off screen right
-    //move dad up increase space between letters
-    //grow a text box
-    //developer description fly up and fade in
+  //fade out dad
+  dadButton.classList.toggle('fade-out');
+  //data fly off screen left
+  dataButton.classList.toggle('slide-left');
+  //developer fly off screen right
+  devButton.classList.toggle('slide-right');
+  //developer description fly up and fade in
 }
+
 
 
 

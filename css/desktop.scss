@@ -1,89 +1,100 @@
 body {
   margin: 0;
-  width: 100vw;
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
+  font-size: 100%;
   background-color: rgb(61, 53, 63);
-  font-size: 62.5%;
-  font-family: 'Audiowide';
 }
 
 .grid-container {
   display: grid;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
   grid-template-columns: [left-edge] 1fr [line1] 1fr [line2] 1fr [right-edge];
   grid-template-rows: [top-edge] 1fr [line1] 1fr [line2] 1fr [bottom-edge];
 }
 
+#canvas {
+  grid-column: left-edge / right-edge;
+  grid-row: top-edge / bottom-edge;
+}
+
+
 .menu {
-  place-self: center;
+  display: grid;
   grid-column: line1 / line2;
   grid-row: line1 / line2;
-  font-family: 'Audiowide';
-  font-size: 2.5em;
+  place-self: center;
   letter-spacing: .1em;
+  font-family: 'Audiowide';
+  font-size: 1.3em;
   cursor: pointer;
   user-select: none;
-  transition: all .3s ease;
-  animation: menu-glow 3s infinite;
-  z-index: 2;
-}
-
-h1:hover {
-  transform: scale(1.4);
-  transform-origin: left;
-  transition: .6s ease;
-}
-
-#dev {
-
-}
-
-#data {
-
-}
-
-#dad {
-
-}
-
-.activate {
-  color: teal;
-}
-
-/*
-.menu-text {
-  position: relative;
-  bottom: -10000px;
-  grid-column: left-edge / right-edge;
-  grid-row: line2 / bottom-edge;
-  font-size: 2em;
-  font-family: Montserrat;
+  animation: menu-glow 2.5s infinite;
   z-index: 1;
 }
-*/
+
+// h1:hover {
+//   transform: scale(1.4);
+//   transform-origin: left;
+//   transition: .4s ease;
+//   text-shadow: 2px 2px 2px rgb(153, 153, 170)
+// }
 
 @keyframes menu-glow {
-  0% {
-    text-shadow: 2px 4px 8px rgb(93, 61, 61);
-  }
-
   50% {
-    text-shadow: 1px 2px 4px rgb(153, 153, 170);
+    text-shadow: 1px 2px 2px rgb(153, 153, 170);
   }
+}
 
+.button {
+  position: relative;
+}
+
+.slide-right {
+  transform: translateX(-999px);
+  transition: 1.5s ease;
+}
+
+.slide-left {
+  transform: translateX(999px);
+  transition: 1.5s ease;
+}
+
+.fade-in {
+  animation: fadeIn 1s linear forwards;
+}
+
+.fade-out {
+  text-shadow: none;
+  animation: fadeOut .5s linear forwards ;
+}
+
+@keyframes fadeOut {
   100% {
-    text-shadow: 2px 4px 8px rgb(93, 61, 61);
+    color: rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    color: rgba(0, 0, 0, 1);
   }
 }
 
 .waves {
   grid-column: left-edge / right-edge;
   grid-row: top-edge / bottom-edge;
+  height: 100vh;
   z-index: 0;
 }
 
 .wave1-container {
   height: 30vh;
+  position: relative;
+  z-index: 0
 }
 
 .wave1 {
@@ -104,7 +115,7 @@ h1:hover {
 }
 
 .wave2-container {
-  height: 40vh;
+  height: 30vh;
 }
 
 .wave2 {
@@ -125,7 +136,7 @@ h1:hover {
 }
 
 .wave3-container {
-  height: 30vh;
+  height: 40vh;
 }
 
 .wave3 {
