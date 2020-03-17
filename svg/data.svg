@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="202.65mm" height="202.65mm" version="1.1" viewBox="0 0 202.64584 202.64584" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(173.14 -81.528)">
+<path d="m28.185 282.85v-200h-50v200h-50v-200h-50v200h-50v-200h200v50h-200v50h200v50h-200v50z" fill="none" stroke="#9a9aab" stroke-width="2.6458"/>
+<text x="-105.0062" y="111.55639" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-105.0062" y="111.55639" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">D3</tspan></text>
+<text x="-109.34923" y="211.20074" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-109.34923" y="211.20074" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SQL</tspan></text>
+<text x="-5.3834352" y="161.55638" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-5.3834352" y="161.55638" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">PY</tspan></text>
+</g>
+</svg>
+

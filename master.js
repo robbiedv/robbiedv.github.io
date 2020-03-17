@@ -1,14 +1,13 @@
 window.onload = function() {
 
-// access menu buttons
 const buttons = document.getElementsByClassName('button');
+
 
 const devButton = document.getElementById('dev');
 const dataButton = document.getElementById('data');
 const dadButton = document.getElementById('dad');
 
-
-// loop through list, select each one by innerHTML
+// loop through menu list, select each by innerHTML
 for (let i=0; i < buttons.length; i++) {
   buttons[i].onclick = function() {
     if (buttons[i].innerHTML == "DEVELOPER") {
@@ -19,6 +18,11 @@ for (let i=0; i < buttons.length; i++) {
       dad(buttons[i]);
     }
   }
+}
+
+//loop through wave
+for (let i = 0;i < wave.length; i++) {
+  co
 }
 
 
