@@ -12,8 +12,8 @@ body {
   overflow: hidden;
   height: 100vh;
   width: 100vw;
-  grid-template-columns: [left-edge] 1fr [line1] 1fr [line2] 1fr [right-edge];
-  grid-template-rows: [top-edge] 1fr [line1] 1fr [line2] 1fr [bottom-edge];
+  grid-template-columns: [left-edge] 1fr [left-skill] 1fr [line1] 1fr [line2] 1fr [right-skill] 1fr [right-edge];
+  grid-template-rows: [top-edge] 1fr [top-skill] 1fr [line1] 1fr [line2] 1fr [bottom-skill] 1fr [bottom-edge];
 }
 
 .menu {
@@ -78,14 +78,20 @@ body {
   }
 }
 
+/**********************
+*** SKILL TREE GRID ***
+**********************/
+
 .skill-tree {
-  position: absolute;
-  grid-column: left-edge / right-edge;
-  grid-row: top-edge / bottom-edge;
-  top: 0;
-  left: 0;
-  margin: auto;
+  grid-column: left-skill / right-skill;
+  grid-row: top-skill / bottom-skill;
   z-index: 9;
+}
+
+svg {
+	margin: auto;
+	height: 70vh;
+	width: 70vh;
 }
 
 text {
@@ -99,13 +105,9 @@ text {
 	}
 }
 
-svg {
-	margin: auto;
-	height: 70vh;
-	width: 70vh;
-}
+.hide-grid {
 
-.hide-grid
+}
 
 .draw-grid {
 	stroke-dasharray: 2405;
@@ -120,16 +122,32 @@ svg {
 }
 
 .dev-grid {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: 8;
 }
 
 .data-grid {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: 7;
 }
 
 .dad-grid {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   z-index: 6;
 }
+
+/**********************
+*** WAVE BACKGROUND ***
+**********************/
 
 .waves {
   grid-column: left-edge / right-edge;

@@ -20,10 +20,10 @@ for (let i=0; i < buttons.length; i++) {
   }
 }
 
-//loop through wave
-for (let i = 0;i < wave.length; i++) {
-  co
-}
+// get each grid
+
+//select matching grid to button clicked
+//toggle draw-grid class 
 
 
 
