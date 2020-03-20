@@ -9,10 +9,12 @@
 						<!-- <link rel="stylesheet" media="screen and (max-width: 650px)" href="css/mobile.scss"> -->
 						<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
 							<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+							<script src="https://kit.fontawesome.com/84ac825456.js" crossorigin="anonymous"></script>
 								<script src="master.js"></script>
 							</head>
 							<body>
 								<div class="grid-container">
+									<div id="close-button"><i class="far fa-times-circle"></i></div>
 									<div class="menu">
 										<h1 id='dev' class="button">DEVELOPER</h1>
 										<h1 id='data' class="button">DATA</h1>
@@ -29,9 +31,12 @@
 											<div class="wave wave3"></div>
 										</div>
 									</div>
-<!-- INLINE SVG -->
+<!--
+INLINE SVG
+-->
 									<div class="skill-tree">
-										<div class="dev-grid">
+<!-- DEV GRID -->
+										<div id="dev-grid" class="hide-grid">
 											<?xml version="1.0" encoding="UTF-8"?>
 											<svg width="150.65mm" height="150.65mm" version="1.1" viewBox="0 0 202.64583 202.64586"
 												xmlns="http://www.w3.org/2000/svg"
@@ -48,30 +53,30 @@
 													</rdf:RDF>
 												</metadata>
 												<g transform="translate(56.722 -148.05)">
-													<path class="draw-grid" d="m144.6 349.38v-200h-50v200h-50v-200h-50v200h-50v-200h200v50h-200v50h200v50h-200v50z" fill="none" stroke="#9a9aab" stroke-width="2.6458"/>
-													<text x="51.826939" y="178.08144" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<path d="m144.6 349.38v-200h-50v200h-50v-200h-50v200h-50v-200h200v50h-200v50h200v50h-200v50z" fill="none" stroke="#9a9aab" stroke-width="2.6458"/>
+													<text class="dev" x="51.826939" y="178.08144" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="51.826939" y="178.08144" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HTML</tspan>
 													</text>
-													<text x="107.38762" y="328.08017" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="dev" x="107.38762" y="328.08017" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="107.38762" y="328.08017" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">CSS</tspan>
 													</text>
-													<text x="19.104391" y="278.15277" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="dev" x="19.104391" y="278.15277" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" text-align="center" text-anchor="middle" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="43" y="278.15277" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" text-align="center" text-anchor="middle" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">JS</tspan>
 													</text>
-													<text x="-40.457775" y="228.08018" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="dev" x="-40.457775" y="228.08018" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="-40.457775" y="228.08018" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">GIT</tspan>
 													</text>
-													<text x="-49.033184" y="328.07965" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="dev" x="-49.033184" y="328.07965" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="-49.033184" y="328.07965" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LINUX</tspan>
 													</text>
-													<text x="98.868759" y="229.90685" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="dev" x="98.868759" y="229.90685" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="98.868759" y="229.90685" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">REACT</tspan>
 													</text>
 												</g>
 											</svg>
 										</div>
 <!-- DATA GRID -->
-										<div class="data-grid">
+										<div id="data-grid" class="hide-grid">
 											<?xml version="1.0" encoding="UTF-8"?>
 											<svg width="202.65mm" height="202.65mm" version="1.1" viewBox="0 0 202.64584 202.64584"
 												xmlns="http://www.w3.org/2000/svg"
@@ -89,19 +94,20 @@
 												</metadata>
 												<g transform="translate(173.14 -81.528)">
 													<path d="m28.185 282.85v-200h-50v200h-50v-200h-50v200h-50v-200h200v50h-200v50h200v50h-200v50z" fill="none" stroke="#9a9aab" stroke-width="2.6458"/>
-													<text x="-105.0062" y="111.55639" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="data" x="-105.0062" y="111.55639" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="-105.0062" y="111.55639" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">D3</tspan>
 													</text>
-													<text x="-109.34923" y="211.20074" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="data" x="-109.34923" y="211.20074" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="-109.34923" y="211.20074" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">SQL</tspan>
 													</text>
-													<text x="-5.3834352" y="161.55638" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="data" x="-5.3834352" y="161.55638" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="-5.3834352" y="161.55638" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">PY</tspan>
 													</text>
 												</g>
 											</svg>
 										</div>
-										<div class="dad-grid">
+<!-- DAD GRID -->
+										<div id="dad-grid" class="hide-grid">
 											<?xml version="1.0" encoding="UTF-8"?>
 											<svg width="202.65mm" height="202.65mm" version="1.1" viewBox="0 0 202.64584 202.64586"
 												xmlns="http://www.w3.org/2000/svg"
@@ -119,16 +125,16 @@
 												</metadata>
 												<g transform="translate(176.92 -27.1)">
 													<path class="grid" d="m24.405 228.42v-200h-50v200h-50v-200h-50v200h-50v-200h200v50h-200v50h200v50h-200v50z" fill="none" stroke="#9a9aab" stroke-width="2.6458" />
-													<text class="legos" x="-71.897026" y="107.04596" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="dad" x="-71.897026" y="107.04596" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="-71.897026" y="107.04596" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LEGOS</tspan>
 													</text>
-													<text x="-172.75795" y="156.82275" fill="#000000" font-family="Audiowide" font-size="9.1722px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="dad" x="-172.75795" y="156.82275" fill="#000000" font-family="Audiowide" font-size="9.1722px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="-172.75795" y="156.82275" font-family="Audiowide" font-size="9.1722px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOCKEY</tspan>
 													</text>
-													<text x="-121.61371" y="57.316795" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="dad" x="-121.61371" y="57.316795" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="-121.61371" y="57.316795" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FORTS</tspan>
 													</text>
-													<text x="-18.243687" y="206.93884" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
+													<text class="dad" x="-18.243687" y="206.93884" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
 														<tspan x="-18.243687" y="206.93884" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">PIZZA</tspan>
 													</text>
 												</g>
