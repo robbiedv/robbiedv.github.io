@@ -1,123 +1,147 @@
+window.onload = function() {
 
+    // MENU BUTTONS //
 
-window.onload = function () {
+    const menuButtons = document.getElementsByClassName('button');
+    const devButton = document.getElementById('dev');
+    const dataButton = document.getElementById('data');
+    const dadButton = document.getElementById('dad');
 
-  // MENU BUTTONS //
+    // SKILLTREE GRID ID'S //
 
-  var buttons = document.getElementsByClassName('button');
-  var devButton = document.getElementById('dev');
-  var dataButton = document.getElementById('data');
-  var dadButton = document.getElementById('dad');
+    const devSkill = document.getElementById('dev-grid');
+    const dataSkill = document.getElementById('data-grid');
+    const dadSkill = document.getElementById('dad-grid');
 
-  // SKILL TREE ID'S //
+    // CLOSE BUTTON //
 
-  var devGrid = document.getElementById('dev-grid');
-  var dataGrid = document.getElementById('data-grid');
-  var dadGrid = document.getElementById('dad-grid');
+    const closeButton = document.getElementById('close-button');
+    const skillText = document.getElementsByTagName('text');
 
-  // CLOSE BUTTON //
+    // FUNCTIONS FOR ADDING + REMOVING CLASSES
 
-  let closeButton = document.getElementById('close-button');
-  var gridText = document.getElementsByTagName('text');
-
-  // loop through menu list, select each by innerHTML
-  var _loop = function _loop(_i) {
-    // closeButton.classList.toggle('show-hide');
-    buttons[_i].onclick = function () {
-      if (buttons[_i].innerHTML == "DEVELOPER") {
-        dev(buttons[_i]);
-      } else if (buttons[_i].innerHTML == "DATA") {
-        data(buttons[_i]);
-      } else {
-        dad(buttons[_i]);
-      }
-    };
-  };
-
-  for (var _i = 0; _i < buttons.length; _i++) {
-    _loop(_i);
-  }
-
-  var devClicked = false;
-  var dataClicked = false;
-  var dadClicked = false;
-
-  // CLOSE BUTTON FUNCTION //
-
-  closeButton.onclick = function () {
-    // closeButton.classList.toggle('show-hide');
-    console.log(devClicked, dataClicked, dadClicked);
-    if (devClicked = true) {
-      devButton.classList.remove('fade-out');
-      dataButton.classList.remove('slide-left');
-      dadButton.classList.remove('slide-right');
-      devGrid.classList.add('hide-grid');
-      devGrid.classList.remove('draw-grid');
-      devClicked = false;
-    } else if (dataClicked = true) {
-      console.log('ya crazy animal')
-      dataButton.classList.remove('fade-out');
-      dadButton.classList.remove('slide-left');
-      devButton.classList.remove('slide-right');
-      dataGrid.classList.add('hide-grid');
-      dataGrid.classList.remove('draw-grid');
-      dataClicked = false;
-    } else if (dadClicked = true) {
-      console.log('lets go');
-      dadButton.classList.remove('fade-out');
-      dataButton.classList.remove('slide-left');
-      devButton.classList.remove('slide-right');
-      dadGrid.classList.add('hide-grid');
-      dadGrid.classList.remove('draw-grid');
-      dadClicked = false;
-    } else {
-      console.log('Garbage!!!!!!')
+    function addClass(elementName, className) {
+        elementName.classList.add(className)
     }
-  };
 
-  function dev(x) {
-    devClicked = true;
-    console.log(devClicked);
-    devButton.classList.add('fade-out');
-    dataButton.classList.add('slide-left');
-    dadButton.classList.add('slide-right');
-    devGrid.classList.remove('hide-grid');
-    devGrid.classList.add('draw-grid');
-
-    for (i = 0; i < gridText.length; i++) {
-      if (gridText[i].classList == "dev") {
-        gridText[i].classList.add('grid-text');
-      }
+    function removeClass(elementName, className) {
+        elementName.classList.remove(className)
     }
-  }
 
-  function data(x) {
-    dataClicked = true;
-    dataButton.classList.add('fade-out');
-    dadButton.classList.add('slide-left');
-    devButton.classList.add('slide-right');
-    dataGrid.classList.remove('hide-grid');
-    dataGrid.classList.add('draw-grid');
+    let devClicked = false;
+    let dataClicked = false;
+    let dadClicked = false;
 
-    for (i = 0; i < gridText.length; i++) {
-      if (gridText[i].classList == "data") {
-        gridText[i].classList.add('grid-text');
-      }
+    for (let i = 0; i < menuButtons.length; i++) {
+        menuButtons[i].onclick = function() {
+            if (menuButtons[i].innerHTML == 'DEVELOPER') {
+                devMenu();
+                devSkillTree();
+                devClicked = true;
+            } else if (menuButtons[i].innerHTML == 'DATA') {
+                dataMenu();
+                dataSkillTree();
+                dataClicked = true;
+            } else if (menuButtons[i].innerHTML == 'DAD') {
+                dadMenu();
+                dadSkillTree();
+                dadClicked = true;
+            } else {
+                console.log('menu button error')
+            }
+        }
     }
-  }
 
-  function dad(x) {
-    dadClicked = true;
-    dadButton.classList.add('fade-out');
-    dataButton.classList.add('slide-left');
-    devButton.classList.add('slide-right');
-    dadGrid.classList.remove('hide-grid');
-    dadGrid.classList.add('draw-grid');
+    // MENU ANIMATIONS //
 
-    for (i = 0; i < gridText.length; i++) {
-      if (gridText[i].classList == "dad") {
-        gridText[i].classList.add('grid-text');
-      }
+    function devMenu() {
+        console.log('dev button was clicked')
+        devButton.classList.add('fade-out');
+        dataButton.classList.add('slide-left');
+        dadButton.classList.add('slide-right');
+        closeButton.classList.remove('hide');
+        closeButton.classList.add('show');
     }
-  }
-};
+
+    function dataMenu() {
+        console.log('the data button was clicked');
+        dataButton.classList.add('fade-out');
+        devButton.classList.add('slide-left');
+        dadButton.classList.add('slide-right');
+        closeButton.classList.remove('hide');
+        closeButton.classList.add('show');
+    }
+
+    function dadMenu() {
+        console.log('the dad button was clicked');
+        dadButton.classList.add('fade-out');
+        devButton.classList.add('slide-left');
+        dataButton.classList.add('slide-right');
+        closeButton.classList.remove('hide');
+        closeButton.classList.add('show');
+    }
+
+    // SKILLTREE GRID ANIMATION FUNCTIONS //
+
+    function devSkillTree() {
+        removeClass(devSkill, 'hide');
+        addClass(devSkill, 'draw-grid');
+        skillTextFade('dev');
+    }
+
+    function dataSkillTree() {
+        removeClass(dataSkill, 'hide');
+        addClass(dataSkill, 'draw-grid');
+        skillTextFade('data');
+    }
+
+    function dadSkillTree() {
+        removeClass(dadSkill, 'hide');
+        addClass(dadSkill, 'draw-grid');
+        skillTextFade('dad');
+    }
+
+    function skillTextFade(skillTree) {
+        for (i = 0; i < skillText.length; i++) {
+            if (skillText[i].classList == skillTree) {
+                skillText[i].classList.add('fade-skill-text')
+            }
+        }
+    }
+
+    // CLOSE BUTTON FUNTCTIONS //
+
+    closeButton.onclick = function() {
+        if (devClicked == true) {
+            devButton.classList.remove('fade-out');
+            dataButton.classList.remove('slide-left');
+            dadButton.classList.remove('slide-right');
+            closeButton.classList.remove('show');
+            closeButton.classList.add('hide');
+            removeClass(devSkill, 'draw-grid');
+            addClass(devSkill, 'hide');
+            devClicked = false;
+        } else if (dataClicked == true) {
+            dataButton.classList.remove('fade-out');
+            devButton.classList.remove('slide-left');
+            dadButton.classList.remove('slide-right');
+            closeButton.classList.remove('show');
+            closeButton.classList.add('hide');
+            removeClass(dataSkill, 'draw-grid');
+            addClass(dataSkill, 'hide');
+            dataClicked = false;
+        } else if (dadClicked == true) {
+            removeClass(dadButton, 'fade-out')
+            removeClass(devButton, 'slide-left');
+            removeClass(dataButton, 'slide-right');
+            removeClass(closeButton, 'show');
+            addClass(closeButton, 'hide');
+            removeClass(dadSkill, 'draw-grid');
+            addClass(dadSkill, 'hide');
+            dadClicked = false;
+        }
+    }
+
+
+
+}

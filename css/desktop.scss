@@ -16,10 +16,6 @@ body {
   grid-template-rows: [top-edge] 1fr [top-skill] 1fr [line1] 1fr [line2] 1fr [bottom-skill] 1fr [bottom-edge];
 }
 
-.show-hide {
-  visibility: hidden;
-}
-
 #close-button {
   grid-column: right-skill / right-edge;
   grid-row: top-edge / top-skill;
@@ -46,13 +42,6 @@ body {
   z-index: 10;
 }
 
-h1:hover {
-  transform: scale(1.3);
-  transform-origin: left;
-  transition: .4s ease;
-  // text-shadow: 2px 2px 2px rgb(153, 153, 170)
-}
-
 @keyframes menu-glow {
   50% {
     text-shadow: 1px 2px 2px rgb(153, 153, 170);
@@ -61,6 +50,18 @@ h1:hover {
 
 .button {
   position: relative;
+}
+
+/************************
+*** ANIMATION CLASSES ***
+************************/
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
 }
 
 .slide-right {
@@ -116,23 +117,21 @@ svg {
   }
 }
 
-.grid-text {
-	opacity: 0;
-	animation: text-fade 2s ease 2s forwards;
-}
+// SKILLTREE TEXT FADE IN FEATURE NOT WORKING
 
-@keyframes text-fade {
-  0% {
-    opacity: 0;
-  }
-	100% {
-		opacity: 1;
-	}
-}
-
-.hide-grid {
-  visibility: hidden;
-}
+// .fade-skill-text {
+// 	opacity: 0;
+// 	animation: text-fade 2s ease 2s forwards;
+// }
+//
+// @keyframes text-fade {
+//   0% {
+//     opacity: 0;
+//   }
+// 	100% {
+// 		opacity: 1;
+// 	}
+// }
 
 .draw-grid {
 	stroke-dasharray: 2405;
