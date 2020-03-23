@@ -8,10 +8,10 @@ window.onload = function() {
     const dadButton = document.getElementById('dad');
 
     // SKILLTREE GRID ID'S //
-
-    const devSkill = document.getElementById('dev-grid');
-    const dataSkill = document.getElementById('data-grid');
-    const dadSkill = document.getElementById('dad-grid');
+    const mainSkill = document.getElementById('skill-main');
+    const devSkill = document.getElementById('dev-skill');
+    const dataSkill = document.getElementById('data-skill');
+    const dadSkill = document.getElementById('dad-skill');
 
     // CLOSE BUTTON //
 
@@ -34,6 +34,7 @@ window.onload = function() {
 
     for (let i = 0; i < menuButtons.length; i++) {
         menuButtons[i].onclick = function() {
+            drawSkillTree();
             if (menuButtons[i].innerHTML == 'DEVELOPER') {
                 devMenu();
                 devSkillTree();
@@ -59,7 +60,8 @@ window.onload = function() {
         devButton.classList.add('fade-out');
         dataButton.classList.add('slide-left');
         dadButton.classList.add('slide-right');
-        closeButton.classList.remove('hide');
+        removeClass(closeButton, 'hide');
+        // closeButton.classList.remove('hide');
         closeButton.classList.add('show');
     }
 
@@ -83,42 +85,55 @@ window.onload = function() {
 
     // SKILLTREE GRID ANIMATION FUNCTIONS //
 
+    function drawSkillTree() {
+      //fadeIn skill-main
+      removeClass(mainSkill, 'hide');
+      //draw-border-left
+      //draw-border-right
+      //skill-glow
+      //skill-buttons
+    }
+
+    function hideSkillTree() {
+      addClass(mainSkill, 'hide');
+    }
+
     function devSkillTree() {
         removeClass(devSkill, 'hide');
-        addClass(devSkill, 'draw-grid');
-        skillTextFade('dev');
+        //skillTextFade('dev');
     }
 
     function dataSkillTree() {
         removeClass(dataSkill, 'hide');
-        addClass(dataSkill, 'draw-grid');
-        skillTextFade('data');
+        // addClass(dataSkill, 'draw-grid');
+        //skillTextFade('data');
     }
 
     function dadSkillTree() {
         removeClass(dadSkill, 'hide');
-        addClass(dadSkill, 'draw-grid');
-        skillTextFade('dad');
+        // addClass(dadSkill, 'draw-grid');
+        //skillTextFade('dad');
     }
 
-    function skillTextFade(skillTree) {
-        for (i = 0; i < skillText.length; i++) {
-            if (skillText[i].classList == skillTree) {
-                skillText[i].classList.add('fade-skill-text')
-            }
-        }
-    }
+    // function skillTextFade(skillTree) {
+    //     for (i = 0; i < skillText.length; i++) {
+    //         if (skillText[i].classList == skillTree) {
+    //             skillText[i].classList.add('fade-skill-text')
+    //         }
+    //     }
+    // }
 
     // CLOSE BUTTON FUNTCTIONS //
 
     closeButton.onclick = function() {
+        hideSkillTree();
         if (devClicked == true) {
             devButton.classList.remove('fade-out');
             dataButton.classList.remove('slide-left');
             dadButton.classList.remove('slide-right');
             closeButton.classList.remove('show');
             closeButton.classList.add('hide');
-            removeClass(devSkill, 'draw-grid');
+            // removeClass(devSkill, 'draw-grid');
             addClass(devSkill, 'hide');
             devClicked = false;
         } else if (dataClicked == true) {
@@ -127,7 +142,7 @@ window.onload = function() {
             dadButton.classList.remove('slide-right');
             closeButton.classList.remove('show');
             closeButton.classList.add('hide');
-            removeClass(dataSkill, 'draw-grid');
+            // removeClass(dataSkill, 'draw-grid');
             addClass(dataSkill, 'hide');
             dataClicked = false;
         } else if (dadClicked == true) {
@@ -136,7 +151,7 @@ window.onload = function() {
             removeClass(dataButton, 'slide-right');
             removeClass(closeButton, 'show');
             addClass(closeButton, 'hide');
-            removeClass(dadSkill, 'draw-grid');
+            // removeClass(dadSkill, 'draw-grid');
             addClass(dadSkill, 'hide');
             dadClicked = false;
         }

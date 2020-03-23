@@ -1,27 +1,277 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="202.65mm" height="202.65mm" version="1.1" viewBox="0 0 202.64584 202.64586" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-	<metadata>
-		<rdf:RDF>
-			<cc:Work rdf:about="">
-				<dc:format>image/svg+xml</dc:format>
-				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-				<dc:title />
-			</cc:Work>
-		</rdf:RDF>
-	</metadata>
-	<g transform="translate(176.92 -27.1)">
-		<path class="grid" d="m24.405 228.42v-200h-50v200h-50v-200h-50v200h-50v-200h200v50h-200v50h200v50h-200v50z" fill="none" stroke="#9a9aab" stroke-width="2.6458" />
-		<text class="legos" x="-71.897026" y="107.04596" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
-			<tspan x="-71.897026" y="107.04596" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">LEGOS</tspan>
-		</text>
-		<text x="-172.75795" y="156.82275" fill="#000000" font-family="Audiowide" font-size="9.1722px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
-			<tspan x="-172.75795" y="156.82275" font-family="Audiowide" font-size="9.1722px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">HOCKEY</tspan>
-		</text>
-		<text x="-121.61371" y="57.316795" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
-			<tspan x="-121.61371" y="57.316795" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">FORTS</tspan>
-		</text>
-		<text x="-18.243687" y="206.93884" fill="#000000" font-family="Audiowide" font-size="10.583px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve">
-			<tspan x="-18.243687" y="206.93884" font-family="Audiowide" font-size="10.583px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">PIZZA</tspan>
-		</text>
-	</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="134.88576mm"
+   height="77.657249mm"
+   viewBox="0 0 134.88576 77.657249"
+   version="1.1"
+   id="svg2972"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="dad.svg">
+  <defs
+     id="defs2966">
+    <filter
+       height="1.0331362"
+       y="-0.016568139"
+       width="1.0188129"
+       x="-0.0094064651"
+       id="filter2042"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur2044"
+         stdDeviation="0.51890383"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1046.3308"
+     inkscape:cy="69.610997"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="1366"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2969">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(171.00835,-89.593995)">
+    <g
+       id="g3297"
+       transform="translate(-624.92485,30.556476)">
+      <g
+         transform="translate(337.40841,-229.86267)"
+         style="fill:#ffffff"
+         id="g4591">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="226.62627"
+           y="344.10458"
+           id="text3979"><tspan
+             sodipodi:role="line"
+             id="tspan3977"
+             x="226.62627"
+             y="344.10458"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">FORTS</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.36802292px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25200129"
+           x="167.56316"
+           y="325.01874"
+           id="text3983"><tspan
+             sodipodi:role="line"
+             id="tspan3981"
+             x="167.56316"
+             y="325.01874"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.25200129">HOCKEY</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.6931057px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.11732765"
+           x="201.85445"
+           y="316.76401"
+           id="text3987"><tspan
+             sodipodi:role="line"
+             id="tspan3985"
+             x="201.85445"
+             y="316.76401"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.11732765">LEGOS</tspan></text>
+        <g
+           id="g4007"
+           transform="translate(309.95904,202.97221)"
+           style="opacity:0;fill:#ffffff">
+          <path
+             inkscape:connector-curvature="0"
+             id="path3989"
+             d="m -180.86751,96.598794 -0.72347,-2.170411 -10.64535,0.930177 20.77393,66.97266 111.621091,-13.84929 -13.539224,-29.55892 -2.350183,0.16005"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3991"
+             d="m -172.18004,95.806597 -0.51157,-1.973201 85.066879,-6.668688 12.51521,27.734432 -2.429963,0.14616"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3993"
+             d="m -187.34445,100.84922 0.84043,-1.315466 2.33861,-0.146164 1.31547,1.02314"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3995"
+             d="m -184.93276,103.18783 1.46163,-0.0731"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3997"
+             d="m -185.11547,108.30353 1.20585,1.31547 2.99634,-0.1827 0.73082,-1.49817"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path3999"
+             d="m -184.23849,105.45336 1.49817,-0.14617 0.9866,0.91352 -0.29232,1.16931 -1.38855,0.10962 -1.09623,-0.87698 z"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4001"
+             d="m -174.88406,105.6726 -2.22898,1.27893 2.85018,0.84044 z"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4003"
+             d="m -182.77686,112.2134 -0.87698,2.11936 1.82704,1.68087 2.74056,-0.14616 1.13276,-1.93666 -1.90012,-1.86358 z"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -71.729506,115.3559 -2.22898,1.27893 2.85018,0.84044 z"
+             id="path4005"
+             inkscape:connector-curvature="0" />
+        </g>
+        <text
+           id="text4029"
+           y="303.57114"
+           x="192.82506"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332"
+             y="303.57114"
+             x="192.82506"
+             id="tspan4027"
+             sodipodi:role="line">PIZZA</tspan></text>
+      </g>
+      <g
+         id="g2040"
+         style="fill:#ffffff;filter:url(#filter2042)"
+         transform="translate(337.43916,-229.85403)">
+        <text
+           id="text2006"
+           y="344.10458"
+           x="226.62627"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332"
+             y="344.10458"
+             x="226.62627"
+             id="tspan2004"
+             sodipodi:role="line">FORTS</tspan></text>
+        <text
+           id="text2010"
+           y="325.01874"
+           x="167.56316"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.36802292px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25200129"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.25200129"
+             y="325.01874"
+             x="167.56316"
+             id="tspan2008"
+             sodipodi:role="line">HOCKEY</tspan></text>
+        <text
+           id="text2014"
+           y="316.76401"
+           x="201.85445"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.6931057px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.11732765"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.11732765"
+             y="316.76401"
+             x="201.85445"
+             id="tspan2012"
+             sodipodi:role="line">LEGOS</tspan></text>
+        <g
+           style="opacity:0;fill:#ffffff"
+           transform="translate(309.95904,202.97221)"
+           id="g2034">
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -180.86751,96.598794 -0.72347,-2.170411 -10.64535,0.930177 20.77393,66.97266 111.621091,-13.84929 -13.539224,-29.55892 -2.350183,0.16005"
+             id="path2016"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -172.18004,95.806597 -0.51157,-1.973201 85.066879,-6.668688 12.51521,27.734432 -2.429963,0.14616"
+             id="path2018"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -187.34445,100.84922 0.84043,-1.315466 2.33861,-0.146164 1.31547,1.02314"
+             id="path2020"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -184.93276,103.18783 1.46163,-0.0731"
+             id="path2022"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -185.11547,108.30353 1.20585,1.31547 2.99634,-0.1827 0.73082,-1.49817"
+             id="path2024"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             d="m -184.23849,105.45336 1.49817,-0.14617 0.9866,0.91352 -0.29232,1.16931 -1.38855,0.10962 -1.09623,-0.87698 z"
+             id="path2026"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -174.88406,105.6726 -2.22898,1.27893 2.85018,0.84044 z"
+             id="path2028"
+             inkscape:connector-curvature="0" />
+          <path
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m -182.77686,112.2134 -0.87698,2.11936 1.82704,1.68087 2.74056,-0.14616 1.13276,-1.93666 -1.90012,-1.86358 z"
+             id="path2030"
+             inkscape:connector-curvature="0" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path2032"
+             d="m -71.729506,115.3559 -2.22898,1.27893 2.85018,0.84044 z"
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.58611107px;line-height:1.25;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="192.82506"
+           y="303.57114"
+           id="text2038"><tspan
+             sodipodi:role="line"
+             id="tspan2036"
+             x="192.82506"
+             y="303.57114"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;font-family:Audiowide;-inkscape-font-specification:'Audiowide, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.26458332">PIZZA</tspan></text>
+      </g>
+    </g>
+  </g>
 </svg>
