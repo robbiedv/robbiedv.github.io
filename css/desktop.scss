@@ -94,9 +94,65 @@ body {
   }
 }
 
-/**********************
-*** SKILL TREE GRID ***
-**********************/
+/*****************
+*** SKILL PODS ***
+*****************/
+
+.pod-1 {
+	grid-column: left-skill / line1;
+	grid-row: line2 / bottom-edge;
+}
+
+.dev-text {
+	display: table-cell;
+	vertical-align: middle;
+	height: 9.5vw;
+	width: 9.5vw;
+	text-align: center;
+	padding: 0 15px;
+	font-size: 1em;
+}
+
+.circle1 {
+	position: absolute;
+	width: 9vw;
+	height: 9.5vw;
+	border: 0.3vw solid black;
+	border-radius: 50%;
+	animation: wave 8s infinite linear;
+}
+
+.circle2 {
+	position: absolute;
+	width: 9.5vw;
+	height: 9.9vw;
+	border: 0.3vw solid black;
+	border-radius: 50%;
+	animation: wave 6s infinite linear;
+}
+
+.circle3 {
+	position: absolute;
+	width: 9.5vw;
+	height: 9.3vw;
+	border: 0.3vw solid black;
+	border-radius: 50%;
+	animation: wave 9s infinite linear;
+}
+
+.circle4 {
+	position: absolute;
+	width: 9.5vw;
+	height: 9.3vw;
+	border: 0.3vw solid black;
+	border-radius: 50%;
+}
+
+@keyframes wave {
+	100% {
+		transform: rotate(360deg);
+	}
+}
 
 
 /**********************
