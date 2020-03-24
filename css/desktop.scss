@@ -29,7 +29,6 @@ body {
 }
 
 .menu {
-  display: grid;
   grid-column: line1 / line2;
   grid-row: line1 / line2;
   place-self: center;
@@ -98,114 +97,6 @@ body {
 /**********************
 *** SKILL TREE GRID ***
 **********************/
-
-.skill {
-  grid-column: left-skill / right-skill;
-  grid-row: top-skill / bottom-skill;
-}
-
-svg {
-	margin: auto;
-	height: 100vh;
-	width: 100vh;
-}
-
-#skill-main {
-  // left: 50%;
-  // top: 50%;
-  // transform: translate(-50%, -50%);
-}
-
-#skill-border {
-	position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-	z-index: 20;
-}
-
-#skill-buttons {
-	position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-	animation: skill-buttons-glow 1.2s linear infinite;
-	z-index: 19;
-}
-
-#skill-background {
-	position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-	opacity: 0;
-	animation: fadeIn 2s ease-in forwards;
-	z-index: 17;
-}
-
-#skill-glow {
-	position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-	z-index: 18;
-	animation: skill-glow 2s linear 1s infinite;
-}
-
-
-.draw-border-left {
-	stroke-dasharray: 230.5;
-	stroke-dashoffset: 230.5;
-	animation: draw-skill-border 1.8s linear forwards;
-}
-
-.draw-border-right {
-	stroke-dasharray: 230.5;
-	stroke-dashoffset: 230.5;
-	animation: draw-skill-border 3.4s linear forwards;
-}
-
-#dev-skill {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 21;
-}
-
-#data-skill {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 21;
-}
-
-#dad-skill {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 21;
-}
-
-@keyframes draw-skill-border {
-	100% {
-		stroke-dashoffset: 0;
-	}
-}
-
-@keyframes skill-glow {
-	50% {
-		opacity: 0.2;
-	}
-}
-
-@keyframes skill-buttons-glow {
-	50% {
-		opacity: 0.7;
-	}
-}
 
 
 /**********************

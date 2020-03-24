@@ -7,15 +7,9 @@ window.onload = function() {
     const dataButton = document.getElementById('data');
     const dadButton = document.getElementById('dad');
 
-    // SKILLTREE GRID ID'S //
-    // const devSkill = document.getElementById('dev-skill');
-    // const dataSkill = document.getElementById('data-skill');
-    // const dadSkill = document.getElementById('dad-skill');
-
     // CLOSE BUTTON //
 
     const closeButton = document.getElementById('close-button');
-    const skillText = document.getElementsByTagName('text');
 
     // FUNCTIONS FOR ADDING + REMOVING CLASSES
 
@@ -56,7 +50,6 @@ window.onload = function() {
         dataButton.classList.add('slide-left');
         dadButton.classList.add('slide-right');
         removeClass(closeButton, 'hide');
-        // closeButton.classList.remove('hide');
         closeButton.classList.add('show');
     }
 
@@ -77,8 +70,6 @@ window.onload = function() {
         closeButton.classList.remove('hide');
         closeButton.classList.add('show');
     }
-
-    // SKILLTREE ANIMATION FUNCTIONS //
 
     // CLOSE BUTTON FUNTCTIONS //
 
