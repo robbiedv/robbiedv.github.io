@@ -17,10 +17,10 @@ body {
 }
 
 #close-button {
-  grid-column: right-skill / right-edge;
-  grid-row: top-edge / top-skill;
-  margin: 1%;
-  padding: 1%;
+  grid-column: 5 / 6;
+  grid-row: 1 / 2;
+  margin-top: 5%;
+  padding: 3%;
   cursor: pointer;
   user-select: none;
   opacity: 0.7;
@@ -34,18 +34,19 @@ body {
   grid-row: line1 / line2;
   place-self: center;
   letter-spacing: .1em;
-  color: white;
+  color: black;
   font-family: 'Audiowide';
   font-size: 1.3em;
+  text-shadow: 1px 1px 2px white;
   cursor: pointer;
   user-select: none;
-  animation: menu-glow 2.5s infinite;
+  animation: menu-glow 2s infinite;
   z-index: 10;
 }
 
 @keyframes menu-glow {
   50% {
-    text-shadow: 1px 2px 2px rgb(153, 153, 170);
+    text-shadow: 2px 2px 4px white;
   }
 }
 
@@ -124,8 +125,7 @@ body {
 	height: 18vw;
 	width: 18vw;
 	text-align: center;
-	padding: 0 15px;
-	font-size: 3em;
+	font-size: 3.5em;
   color: white;
   font-family: Audiowide;
 }
@@ -181,7 +181,7 @@ body {
 	height: 9.5vw;
 	width: 9.5vw;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.2em;
   color: white;
   font-family: Audiowide;
 }
@@ -264,7 +264,7 @@ body {
   margin-left: -200vw;
   width: 500vw;
   height: 520vw;
-  box-shadow: 0 5px 40px rgb(238, 83, 34,);
+  box-shadow: 0 5px 40px rgb(238, 83, 34);
   border: 5vh solid rgba(238, 83, 34, .8);
   border-radius: 50%;
   animation: rotate 18s infinite linear;

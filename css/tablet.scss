@@ -17,9 +17,8 @@ body {
 }
 
 #close-button {
-  grid-column: 3 / 4;
+  grid-column: 5 / 6;
   grid-row: 1 / 2;
-  margin-left: 80%;
   margin-top: 5%;
   padding: 3%;
   cursor: pointer;
@@ -113,7 +112,7 @@ body {
   place-self: center;
   width: 30vh;
   height: 30vh;
-  border: 1.2vh solid white;
+  border: 1vw solid white;
   border-radius: 50%;
   box-shadow: 0 1px 10px white;
   // animation: pod-glow 2s linear 1s infinite;
@@ -126,7 +125,7 @@ body {
 	height: 30vh;
 	width: 30vh;
 	text-align: center;
-	font-size: 3em;
+	font-size: 3.5em;
   color: white;
   font-family: Audiowide;
 }
@@ -134,93 +133,91 @@ body {
 
 #pod-1 {
 	grid-column: 3 / 4;
-	grid-row: 4 / 6;
-  margin-top: 40%;
-  margin-left: 30%;
+	grid-row: 4 / auto;
+  margin-top: 5%;
+  margin-left: 15%;
   z-index: 5;
 }
 
 #pod-2 {
-	grid-column: 2 / 4;
-	grid-row: 3 / 5;
-  margin-top: 80%;
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+  margin-left: 10%;
+  margin-top: 100%;
   z-index: 5;
 }
 
 #pod-3 {
-	grid-column: 2 / 4;
-	grid-row: 1 / 2;
-  margin-top: 35%;
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
   z-index: 5;
 }
 
 #pod-4 {
-	grid-column: 3 / 5;
-	grid-row: 2 / 3;
-  margin-left: 60%;
-  margin-top: 5%;
+	grid-column: 4 / 5;
+	grid-row: 3 / 4;
+  margin-left: 30%;
   z-index: 5;
 }
 
 #pod-5 {
 	grid-column: 3 / 4;
 	grid-row: 1 / 3;
-  margin-top: 5%;
-  margin-left: 30%;
+  margin-top: 10%;
+  margin-left: 40%;
   z-index: 5;
 }
 
 #pod-6 {
-	grid-column: 3 / 5;
-	grid-row: 4 / 5;
-  margin-left: 60%;
-  margin-top: 5%;
+	grid-column: 4 / 6;
+	grid-row: 4 / 6;
+  margin-left: 25%;
   z-index: 5;
 }
 
 .pod-text {
 	display: table-cell;
 	vertical-align: middle;
-	height: 14.5vh;
-	width: 14.5vh;
+	height:12.5vw;
+	width: 12.5vw;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.1em;
   color: white;
   font-family: Audiowide;
 }
 
 .circle1 {
 	position: absolute;
-	width: 15vh;
-	height: 14.2vh;
-	border: 0.4vh solid white;
+	width: 12vw;
+	height: 12.5vw;
+	border: 0.3vw solid white;
 	border-radius: 50%;
 	animation: rotate 8s infinite linear;
 }
 
 .circle2 {
 	position: absolute;
-	width: 15.2vh;
-	height: 14.4vh;
-	border: 0.4vh solid white;
+	width: 12.5vw;
+	height: 12.9vw;
+	border: 0.3vw solid white;
 	border-radius: 50%;
 	animation: rotate 6s infinite linear;
 }
 
 .circle3 {
 	position: absolute;
-	width: 14.2vh;
-	height: 15vh;
-	border: 0.4vh solid white;
+	width: 12.5vw;
+	height: 12.3vw;
+	border: 0.3vw solid white;
 	border-radius: 50%;
 	animation: rotate 9s infinite linear;
 }
 
 .circle4 {
 	position: absolute;
-	width: 14.4vh;
-	height: 15.2vh;
-	border: 0.4vh solid white;
+	width: 12.5vw;
+	height: 12.3vw;
+	border: 0.3vw solid white;
 	border-radius: 50%;
 }
 
@@ -249,14 +246,13 @@ body {
 
 .wave1 {
   left: 50%;
-  margin-top: 10%;
-  margin-left: -120vw;
-  width: 325vw;
-  height: 350vw;
-  border: 3vh solid rgba(238, 83, 34, .8);
+  margin-left: -200vw;
+  width: 500vw;
+  height: 525vw;
+  border: 5vh solid rgba(238, 83, 34, .8);
   box-shadow: 0 5px 40px rgb(238, 83, 34);
   border-radius: 50%;
-  animation: rotate 14s infinite linear;
+  animation: rotate 21s infinite linear;
 }
 
 .wave2-container {
@@ -265,13 +261,14 @@ body {
 
 .wave2 {
   left: 50%;
-  margin-left: -120vw;
-  width: 325vw;
-  height: 345vw;
+  margin-left: -200vw;
+  margin-top: 2%;
+  width: 500vw;
+  height: 520vw;
   box-shadow: 0 5px 40px rgb(238, 83, 34);
-  border: 3vh solid rgba(238, 83, 34, .8);
+  border: 5vh solid rgba(238, 83, 34, .8);
   border-radius: 50%;
-  animation: rotate 11s infinite linear;
+  animation: rotate 18s infinite linear;
 }
 
 .wave3-container {
@@ -280,14 +277,13 @@ body {
 
 .wave3 {
   left: 50%;
-  margin-top: 5%;
-  margin-left: -120vw;
-  width: 325vw;
-  height: 364vw;
-  border: 3vh solid rgba(238, 83, 34, .8);
+  margin-left: -200vw;
+  width: 500vw;
+  height: 540vw;
+  border: 5vh solid rgba(238, 83, 34, .8);
   box-shadow: 0 5px 40px rgb(238, 83, 34);
   border-radius: 50%;
-  animation: rotate 13s infinite linear;
+  animation: rotate 20s infinite linear;
 }
 
 @keyframes rotate {
