@@ -19,7 +19,6 @@ body {
   grid-template-rows: [top-edge] 1fr [top-skill] 1fr [line1] 1fr [line2] 1fr [bottom-skill] 1fr [bottom-edge];
 }
 
-
 #close-button {
   -ms-grid-column: 5;
   -ms-grid-column-span: 1;
@@ -36,7 +35,7 @@ body {
           user-select: none;
   opacity: 0.7;
   color: white;
-  font-size: 3em;
+  font-size: 2.5em;
   z-index: 25;
 }
 
@@ -162,9 +161,9 @@ body {
   -ms-grid-row-align: center;
   -ms-grid-column-align: center;
   place-self: center;
-  width: 18vw;
-  height: 18vw;
-  border: 0.8vw solid white;
+  width: 30vh;
+  height: 30vh;
+  border: 1vw solid white;
   border-radius: 50%;
   -webkit-box-shadow: 0 1px 10px white;
           box-shadow: 0 1px 10px white;
@@ -175,8 +174,8 @@ body {
 #main-pod-text {
 	display: table-cell;
 	vertical-align: middle;
-	height: 18vw;
-	width: 18vw;
+	height: 30vh;
+	width: 30vh;
 	text-align: center;
 	font-size: 3.5em;
   color: white;
@@ -202,7 +201,7 @@ body {
 	-ms-grid-row-span: 1;
 	grid-row: 3 / 4;
   margin-left: 10%;
-  margin-top: 60%;
+  margin-top: 100%;
   z-index: 5;
 }
 
@@ -253,18 +252,18 @@ body {
 .pod-text {
 	display: table-cell;
 	vertical-align: middle;
-	height: 9.5vw;
-	width: 9.5vw;
+	height:12.5vw;
+	width: 12.5vw;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.1em;
   color: white;
   font-family: Audiowide;
 }
 
 .circle1 {
 	position: absolute;
-	width: 9vw;
-	height: 9.5vw;
+	width: 12vw;
+	height: 12.5vw;
 	border: 0.3vw solid white;
 	border-radius: 50%;
 	-webkit-animation: rotate 8s infinite linear;
@@ -273,8 +272,8 @@ body {
 
 .circle2 {
 	position: absolute;
-	width: 9.5vw;
-	height: 9.9vw;
+	width: 12.5vw;
+	height: 12.9vw;
 	border: 0.3vw solid white;
 	border-radius: 50%;
 	-webkit-animation: rotate 6s infinite linear;
@@ -283,8 +282,8 @@ body {
 
 .circle3 {
 	position: absolute;
-	width: 9.5vw;
-	height: 9.3vw;
+	width: 12.5vw;
+	height: 12.3vw;
 	border: 0.3vw solid white;
 	border-radius: 50%;
 	-webkit-animation: rotate 9s infinite linear;
@@ -293,8 +292,8 @@ body {
 
 .circle4 {
 	position: absolute;
-	width: 9.5vw;
-	height: 9.3vw;
+	width: 12.5vw;
+	height: 12.3vw;
 	border: 0.3vw solid white;
 	border-radius: 50%;
 }
@@ -350,6 +349,7 @@ body {
 .wave2 {
   left: 50%;
   margin-left: -200vw;
+  margin-top: 2%;
   width: 500vw;
   height: 520vw;
   -webkit-box-shadow: 0 5px 40px rgb(238, 83, 34);

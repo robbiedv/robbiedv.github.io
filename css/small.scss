@@ -19,14 +19,14 @@ body {
   grid-template-rows: [top-edge] 1fr [top-skill] 1fr [line1] 1fr [line2] 1fr [bottom-skill] 1fr [bottom-edge];
 }
 
-
 #close-button {
-  -ms-grid-column: 5;
+  -ms-grid-column: 3;
   -ms-grid-column-span: 1;
-  grid-column: 5 / 6;
+  grid-column: 3 / 4;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
+  margin-left: 80%;
   margin-top: 5%;
   padding: 3%;
   cursor: pointer;
@@ -36,7 +36,7 @@ body {
           user-select: none;
   opacity: 0.7;
   color: white;
-  font-size: 3em;
+  font-size: 2.5em;
   z-index: 25;
 }
 
@@ -162,9 +162,9 @@ body {
   -ms-grid-row-align: center;
   -ms-grid-column-align: center;
   place-self: center;
-  width: 18vw;
-  height: 18vw;
-  border: 0.8vw solid white;
+  width: 30vh;
+  height: 30vh;
+  border: 1.2vh solid white;
   border-radius: 50%;
   -webkit-box-shadow: 0 1px 10px white;
           box-shadow: 0 1px 10px white;
@@ -175,10 +175,10 @@ body {
 #main-pod-text {
 	display: table-cell;
 	vertical-align: middle;
-	height: 18vw;
-	width: 18vw;
+	height: 30vh;
+	width: 30vh;
 	text-align: center;
-	font-size: 3.5em;
+	font-size: 3em;
   color: white;
   font-family: Audiowide;
 }
@@ -188,42 +188,46 @@ body {
 	-ms-grid-column: 3;
 	-ms-grid-column-span: 1;
 	grid-column: 3 / 4;
-	grid-row: 4 / auto;
-  margin-top: 5%;
-  margin-left: 15%;
+	-ms-grid-row: 4;
+	-ms-grid-row-span: 2;
+	grid-row: 4 / 6;
+  margin-top: 10%;
+  margin-left: 30%;
   z-index: 5;
 }
 
 #pod-2 {
-	-ms-grid-column: 2;
-	-ms-grid-column-span: 1;
-	grid-column: 2 / 3;
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 3;
+	grid-column: 1 / 4;
 	-ms-grid-row: 3;
-	-ms-grid-row-span: 1;
-	grid-row: 3 / 4;
-  margin-left: 10%;
+	-ms-grid-row-span: 2;
+	grid-row: 3 / 5;
+  margin-left: 5%;
   margin-top: 60%;
   z-index: 5;
 }
 
 #pod-3 {
 	-ms-grid-column: 2;
-	-ms-grid-column-span: 1;
-	grid-column: 2 / 3;
-	-ms-grid-row: 2;
+	-ms-grid-column-span: 2;
+	grid-column: 2 / 4;
+	-ms-grid-row: 1;
 	-ms-grid-row-span: 1;
-	grid-row: 2 / 3;
+	grid-row: 1 / 2;
+  margin-top: 35%;
   z-index: 5;
 }
 
 #pod-4 {
-	-ms-grid-column: 4;
-	-ms-grid-column-span: 1;
-	grid-column: 4 / 5;
-	-ms-grid-row: 3;
+	-ms-grid-column: 3;
+	-ms-grid-column-span: 2;
+	grid-column: 3 / 5;
+	-ms-grid-row: 2;
 	-ms-grid-row-span: 1;
-	grid-row: 3 / 4;
-  margin-left: 30%;
+	grid-row: 2 / 3;
+  margin-left: 60%;
+  margin-top: 5%;
   z-index: 5;
 }
 
@@ -234,38 +238,38 @@ body {
 	-ms-grid-row: 1;
 	-ms-grid-row-span: 2;
 	grid-row: 1 / 3;
-  margin-top: 10%;
-  margin-left: 40%;
+  margin-top: 5%;
+  margin-left: 30%;
   z-index: 5;
 }
 
 #pod-6 {
-	-ms-grid-column: 4;
-	-ms-grid-column-span: 2;
-	grid-column: 4 / 6;
+	-ms-grid-column: 3;
+	-ms-grid-column-span: 1;
+	grid-column: 3 / 4;
 	-ms-grid-row: 4;
-	-ms-grid-row-span: 2;
-	grid-row: 4 / 6;
-  margin-left: 25%;
+	-ms-grid-row-span: 1;
+	grid-row: 4 / 5;
+  margin-left: 65%;
   z-index: 5;
 }
 
 .pod-text {
 	display: table-cell;
 	vertical-align: middle;
-	height: 9.5vw;
-	width: 9.5vw;
+	height: 14.5vh;
+	width: 14.5vh;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1em;
   color: white;
   font-family: Audiowide;
 }
 
 .circle1 {
 	position: absolute;
-	width: 9vw;
-	height: 9.5vw;
-	border: 0.3vw solid white;
+	width: 15vh;
+	height: 14.2vh;
+	border: 0.4vh solid white;
 	border-radius: 50%;
 	-webkit-animation: rotate 8s infinite linear;
 	        animation: rotate 8s infinite linear;
@@ -273,9 +277,9 @@ body {
 
 .circle2 {
 	position: absolute;
-	width: 9.5vw;
-	height: 9.9vw;
-	border: 0.3vw solid white;
+	width: 15.2vh;
+	height: 14.4vh;
+	border: 0.4vh solid white;
 	border-radius: 50%;
 	-webkit-animation: rotate 6s infinite linear;
 	        animation: rotate 6s infinite linear;
@@ -283,9 +287,9 @@ body {
 
 .circle3 {
 	position: absolute;
-	width: 9.5vw;
-	height: 9.3vw;
-	border: 0.3vw solid white;
+	width: 14.2vh;
+	height: 15vh;
+	border: 0.4vh solid white;
 	border-radius: 50%;
 	-webkit-animation: rotate 9s infinite linear;
 	        animation: rotate 9s infinite linear;
@@ -293,9 +297,9 @@ body {
 
 .circle4 {
 	position: absolute;
-	width: 9.5vw;
-	height: 9.3vw;
-	border: 0.3vw solid white;
+	width: 14.4vh;
+	height: 15.2vh;
+	border: 0.4vh solid white;
 	border-radius: 50%;
 }
 
@@ -332,15 +336,16 @@ body {
 
 .wave1 {
   left: 50%;
-  margin-left: -200vw;
-  width: 500vw;
-  height: 525vw;
-  border: 5vh solid rgba(238, 83, 34, .8);
+  margin-top: 10%;
+  margin-left: -120vw;
+  width: 325vw;
+  height: 350vw;
+  border: 3vh solid rgba(238, 83, 34, .8);
   -webkit-box-shadow: 0 5px 40px rgb(238, 83, 34);
           box-shadow: 0 5px 40px rgb(238, 83, 34);
   border-radius: 50%;
-  -webkit-animation: rotate 21s infinite linear;
-          animation: rotate 21s infinite linear;
+  -webkit-animation: rotate 14s infinite linear;
+          animation: rotate 14s infinite linear;
 }
 
 .wave2-container {
@@ -349,15 +354,15 @@ body {
 
 .wave2 {
   left: 50%;
-  margin-left: -200vw;
-  width: 500vw;
-  height: 520vw;
+  margin-left: -120vw;
+  width: 325vw;
+  height: 345vw;
   -webkit-box-shadow: 0 5px 40px rgb(238, 83, 34);
           box-shadow: 0 5px 40px rgb(238, 83, 34);
-  border: 5vh solid rgba(238, 83, 34, .8);
+  border: 3vh solid rgba(238, 83, 34, .8);
   border-radius: 50%;
-  -webkit-animation: rotate 18s infinite linear;
-          animation: rotate 18s infinite linear;
+  -webkit-animation: rotate 11s infinite linear;
+          animation: rotate 11s infinite linear;
 }
 
 .wave3-container {
@@ -366,15 +371,16 @@ body {
 
 .wave3 {
   left: 50%;
-  margin-left: -200vw;
-  width: 500vw;
-  height: 540vw;
-  border: 5vh solid rgba(238, 83, 34, .8);
+  margin-top: 5%;
+  margin-left: -120vw;
+  width: 325vw;
+  height: 364vw;
+  border: 3vh solid rgba(238, 83, 34, .8);
   -webkit-box-shadow: 0 5px 40px rgb(238, 83, 34);
           box-shadow: 0 5px 40px rgb(238, 83, 34);
   border-radius: 50%;
-  -webkit-animation: rotate 20s infinite linear;
-          animation: rotate 20s infinite linear;
+  -webkit-animation: rotate 13s infinite linear;
+          animation: rotate 13s infinite linear;
 }
 
 @-webkit-keyframes rotate {
